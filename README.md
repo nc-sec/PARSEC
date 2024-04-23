@@ -7,6 +7,18 @@ This Jupyter Notebook aims to provide a system for analyzing and reviewing PDF d
 - It is meant to be a study & exam aid but if you don't review/tune the generated materials you're gonna have a bad time. i.e. If you don't know the exam materials you will fail.
 - Don't accidentally violate copyrights/policies (and if you are/do and get caught, do the needfull & ask for forgiveness)
 
+## stuff to fix
+- if a page # contains letters, make it a topic, and also delete that page # string.. (oops)
+- normalization of topics (lowercase etc)
+- deduplication - identify acronyms and map to other topics
+- deduplication - of topics across books
+- fuzzy Grouping of topics (acronyms vs full text?) - potential alternative to alphabetical order
+## Topics to explore
+- More traditional/hybrid search (bm25)
+- Text Embeddings & distance/cosine similarity based search (instead of text expansion)
+- category-wise Grouping of topics for final 
+- re-ranking (of docs after retrieval)
+- An end to end implementation w/ langchain.. llama-index
 ## Requirements
 ### Non-local 
 - python

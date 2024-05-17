@@ -19,6 +19,7 @@ This Jupyter Notebook aims to provide a system for analyzing and reviewing PDF d
 - category-wise Grouping of topics for final 
 - re-ranking (of docs after retrieval)
 - An end to end implementation w/ langchain.. llama-index
+- pydantic for forcing formatted outputs? or dspy
 ## Requirements
 ### Non-local 
 - python
